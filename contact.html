@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eng_Mohamed Abd Alsalam - تواصل معي | روابط التواصل الاجتماعي والبريد الإلكتروني">
+    <title>تواصل معي |Eng_Mohamed Abd Alsalm</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-theme="dark">
+
+    <!-- AURORA BACKGROUND BLOBS -->
+    <div class="aurora-bg">
+        <div class="aurora-blob aurora-1"></div>
+        <div class="aurora-blob aurora-2"></div>
+        <div class="aurora-blob aurora-3"></div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Eng_Mohamed Abd Alsalam</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    المشاريع
+                </a>
+                <a href="contact.html" class="nav-link active">
+                    <i class="fa-solid fa-address-card"></i>
+                    التواصل
+                </a>
+            </div>
+            <button class="theme-toggle-btn" id="theme-toggle">
+                <i class="fa-solid fa-sun"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- HERO (compact) -->
+        <section class="hero-section hero-compact">
+            <div class="glass-container hero-card hero-card-compact">
+
+                <div class="avatar-wrapper">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-inner">
+                        <img src="assets/profile.jpg" alt="Eng_Mohamed Abd Alsalam"
+                            onerror="this.style.display='none'; this.insertAdjacentHTML('afterend','<div style=\'font-size:40px;font-weight:bold;\'>MA</div>');">
+                    </div>
+                </div>
+
+                <div class="hero-text">
+                    <span class="profile-badge">
+                        <i class="fa-solid fa-circle" style="color:#25d366;"></i>
+                        متاح للمشاريع والعمل الحر
+                    </span>
+                    <h1 class="profile-name">Eng_Mohamed Abd Alsalam</h1>
+                    <p class="profile-title">FullStack Developer | Web &amp; Systems Builder</p>
+                </div>
+
+                <div class="cta-group">
+                    <a href="index.html" class="btn btn-primary">
+                        <i class="fa-solid fa-laptop-code"></i> استعراض الأعمال
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SOCIAL LINKS -->
+        <section class="section-wrapper" id="social-section">
+
+            <h2 class="section-title">
+                <i class="fa-solid fa-share-nodes"></i>
+                روابط التواصل
+            </h2>
+
+            <div class="social-grid">
+
+                <a href="tel:01287767104" class="glass-container social-card">
+                    <i class="fas fa-phone"></i>
+                    <span>Mobile</span>
+                </a>
+
+                <a href="https://wa.me/201017894639" target="_blank"
+                    class="glass-container social-card social-whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+
+                <a href="https://www.facebook.com/share/1ARfhC1qw9/" target="_blank"
+                    class="glass-container social-card social-facebook">
+                    <i class="fab fa-facebook-f"></i>
+                    <span>Facebook</span>
+                </a>
+
+                <a href="https://www.instagram.com/x_eng_mohamed_x?igsh=MTFxczltOWUwYThxYg==" target="_blank"
+                    class="glass-container social-card social-instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+
+                <a href="https://t.me/mohamedalokl" target="_blank" class="glass-container social-card">
+                    <i class="fab fa-telegram-plane"></i>
+                    <span>Telegram</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/mohamed-abd-alsalam-031a54356" target="_blank"
+                    class="glass-container social-card social-linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </a>
+
+                <a href="https://www.facebook.com/share/1CmbpK3SrA/" target="_blank"
+                    class="glass-container social-card">
+                    <i class="fa-solid fa-building"></i>
+                    <span>CoreStack (Founder)</span>
+                </a>
+
+            </div>
+     
+
+    </main>
+
+    <!-- PREMIUM FOOTER -->
+    <footer class="pf">
+        <div class="pf__glow"></div>
+        <div class="pf__inner">
+
+            <div id="email-box" class="pf__email" onclick="copyEmail(this)">
+                <i class="fa-regular fa-envelope pf__email-icon"></i>
+                <span class="email-text">mohamedalokl446@gmail.com</span>
+                <span class="pf__email-action">
+                    <i class="fa-regular fa-copy copy-icon"></i>
+                    <span>نسخ</span>
+                </span>
+            </div>
+
+            <div class="pf__divider"></div>
+
+            <div class="pf__socials">
+                <a href="https://www.facebook.com/share/1ARfhC1qw9/" target="_blank" class="pf__social-link" data-brand="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/x_eng_mohamed_x" target="_blank" class="pf__social-link" data-brand="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/201017894639" target="_blank" class="pf__social-link" data-brand="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/mohamed-abd-alsalam-031a54356" target="_blank" class="pf__social-link" data-brand="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://t.me/mohamedalokl" target="_blank" class="pf__social-link" data-brand="telegram"><i class="fab fa-telegram-plane"></i></a>
+            </div>
+
+            <div class="pf__bottom">
+                <p class="pf__copy">© 2026 All Rights Reserved</p>
+                <p class="pf__credit">Designed & Developed by Eng_Mohamed Abd Alsalam</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- TOAST CONTAINER -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
